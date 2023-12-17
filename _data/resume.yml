@@ -18,8 +18,8 @@ contact: #联系方式连接等3~5行
 - text: "http://thunder-blog.top/"
   href: 'http://thunder-blog.top/'
   icon: 'icons/web.svg'
-- text: "brokenarr0w"
-  href: 'https://github.com/NewFuture'
+- text: "https://github.com/brokenarr0w"
+  href: 'https://github.com/brokenarr0w'
   icon: "icons/github.svg"
   attr: 'target="_blank"' #新标签页打开
   # - text: "地址"
