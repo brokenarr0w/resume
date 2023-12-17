@@ -40,15 +40,20 @@ others: #其他列表显示
   name: '专业技能'
   content: #选择需要的格式
   - 单行文字
-  - title: "计算机基础"
+  - title: "计算机基础："
     text: "熟练掌握计算机网络，数据结构与算法"
-  - title: "Linux"
-    text: "掌握常用的Linux命令，并使用Linux实际部署过一个博客项目"
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
-
+  - title: "Linux："
+    text: "了解并掌握常用的Linux命令，并使用Linux实际部署过一个博客项目"
+  - title: "Java："
+    text: "熟练掌握Java基础，集合，了解JDK8-17的新特性，包括stream流，lambda表达式等。"
+  - title: "数据库"
+    text: "掌握MySQL数据库及其常见优化手段，了解Redis，掌握缓存雪崩，缓存击穿，缓存穿透的解决方案"
+  - title: "开发工具："
+    text: "熟练使用IDEA,Git,Maven"
+  - title: "框架"
+    text: "熟练掌握Spring,Spring MVC,Spring Boot,MyBatis,Spring Security等框架,并熟练使用Hutool等工具库"
+  - title: "前端"
+    text: "了解并掌握HTML,CSS,JavaScript,有Vue相关开发经验"
 - type: experience
   name: 经验
   content:
