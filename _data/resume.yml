@@ -39,14 +39,6 @@ main: #简历主要内容，
   - title: ""
     detail:
       md: _data/demo.md
-  - title: "数据库"
-    text: "掌握MySQL数据库及其常见优化手段,了解Redis,掌握缓存雪崩,缓存击穿,缓存穿透的解决方案"
-  - title: "开发工具："
-    text: "熟练使用IDEA,Git,Maven"
-  - title: "框架"
-    text: "熟练掌握Spring,Spring MVC,Spring Boot,MyBatis,Spring Security等框架,并熟练使用Hutool等工具库"
-  - title: "前端"
-    text: "了解并掌握HTML,CSS,JavaScript,有Vue相关开发经验"
 - type: projects
   name: 项目经验
   content:
