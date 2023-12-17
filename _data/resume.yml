@@ -33,7 +33,6 @@ main: #简历主要内容，
   - title: 渭南师范学院 计算机科学与技术
     duration: "2021年6月 - 2025年6月"
     sub: 本科
-    detail: 计算机科学与技术
 - type: others #ID可以为空
   name: '专业技能'
   content:
