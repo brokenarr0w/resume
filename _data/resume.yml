@@ -41,7 +41,8 @@ main: #简历主要内容，
       md: _data/demo.md
 - type: skills
   name: "获奖经历"
-  content: 
+  content:
+  - title: ''
     items:
     - 中级软件设计师
     - 蓝桥杯省二等奖
