@@ -56,8 +56,8 @@ others: #其他列表显示
 - type: projects
   name: 项目经验
   content:
-  - title: 个人博客
-    duration: 2022年09月 - 至今
+  - title: "个人博客"
+    duration: "2022年09月 - 至今"
     detail: 项目和工作介绍，项目总结.
     sub: 维护者
   - title: Project Name
