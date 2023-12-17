@@ -38,8 +38,11 @@ main: #简历主要内容，
 - type: 专业技能
   # name: "技能"
   content:
+  - 单行文字
   - title: 基础
     items: 
+    - 一行
+    - 二行
     detail:
     md: _data/demo.md
   - title: Skill Group
