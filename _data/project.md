@@ -5,3 +5,4 @@ Spring Boot + MySQL + Sa-Token + Mybatis-plus + Slf4j + Caffeine + Vue + Element
 * 自定义了元数据对象处理器，实现了数据库的公共字段填充。
 * 实现了自定义全局异常处理并统一封装了返回类。
 * 使用Caffeine缓存了首页右侧的置顶博客和左侧的个人介绍,减轻了数据库的压力。
+* 使用了Linux将项目部署上线。
