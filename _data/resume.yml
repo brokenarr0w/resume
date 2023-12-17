@@ -40,13 +40,10 @@ others: #其他列表显示
   name: '专业技能'
   content: #选择需要的格式
   - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - title: "计算机基础："
-      text: "熟练掌握计算机网络，数据结构与算法"
-    - coding
+  - title: "计算机基础"
+    text: "熟练掌握计算机网络，数据结构与算法"
+  - title: "Linux"
+    text: "掌握常用的Linux命令，并使用Linux实际部署过一个博客项目"
   - title: 列表
     list:
     - 第一项
