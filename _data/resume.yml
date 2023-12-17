@@ -43,15 +43,11 @@ main: #简历主要内容，
   name: 项目经验
   content:
   - title: "个人博客"
-    duration: "2022年09月 - 至今"
-    detail: 项目和工作介绍，项目总结.
-    sub: 维护者
-  - title: Project Name
-    summary: Projects' introduction or summary
+    duration: "2023年09月 - 至今"
+    summary: 该项目是我之前学习的一个项目，一个较为完整的博客系统，具备了常见的博客相关功能，初衷就是为了解决日常的学习记录与总结。 
     detail:
-      md: _data/demo.md
-    sub: Creator and maintainer.
-   #可继续添加更多内容
+      md: _data/project.md
+    sub: 维护者
 
 #others 其他简略内容(列表)
 
