@@ -1,10 +1,10 @@
 # 数据格式可以为 yaml(文件以.yml结尾) 或者json(文件以.json结尾)
 # 如果YAML格式的数据请先检查格式是否有误，可选检查工具 http://www.yamllint.com
 
-title: "简历标题"
+title: "实习简历"
 lang: "zh" #语言设置 zh表示中文 en 表示英语
-name: "你的名字"
-jobtitle: "" #可空不显示
+name: "邹振宇"
+jobtitle: "Java后端" #可空不显示
 photo: "assets/img/photo.jpg" #照片可空，不显示
 
 #联系方式
@@ -30,7 +30,7 @@ main: #简历主要内容，
 - type: education #类别为ID
   name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 渭南师范学院
+  - title: 渭南师范学院 计算机科学与技术
     duration: "2021年6月 - 2025年6月"
     sub: 本科
     detail: 计算机科学与技术
@@ -38,47 +38,26 @@ main: #简历主要内容，
 others: #其他列表显示
 - type: others #ID可以为空
   name: '专业技能'
-  content: #选择需要的格式
-  - 单行文字
+  content:
   - title: "计算机基础："
-    text: "熟练掌握计算机网络，数据结构与算法"
+    text: "熟练掌握计算机网络,数据结构与算法"
   - title: "Linux："
-    text: "了解并掌握常用的Linux命令，并使用Linux实际部署过一个博客项目"
+    text: "了解并掌握常用的Linux命令,并使用Linux实际部署过一个博客项目"
   - title: "Java："
-    text: "熟练掌握Java基础，集合，了解JDK8-17的新特性，包括stream流，lambda表达式等。"
+    text: "熟练掌握Java基础,集合,了解JDK8-17的新特性,包括stream流,lambda表达式等。"
   - title: "数据库"
-    text: "掌握MySQL数据库及其常见优化手段，了解Redis，掌握缓存雪崩，缓存击穿，缓存穿透的解决方案"
+    text: "掌握MySQL数据库及其常见优化手段,了解Redis,掌握缓存雪崩,缓存击穿,缓存穿透的解决方案"
   - title: "开发工具："
     text: "熟练使用IDEA,Git,Maven"
   - title: "框架"
     text: "熟练掌握Spring,Spring MVC,Spring Boot,MyBatis,Spring Security等框架,并熟练使用Hutool等工具库"
   - title: "前端"
     text: "了解并掌握HTML,CSS,JavaScript,有Vue相关开发经验"
-- type: experience
-  name: 经验
-  content:
-  - title: 职位
-    sub: 某某公司
-    duration: "xxxx年xx月 - yyyy年yy月"
-    tags:
-    - 标签
-    summary: 职务或者工作总结(自动折叠)
-    detail: 同时包含 summary和detail在Chrome，Safari(包括IOS)，Android和新版Firefox等会自动折叠，不支持折叠的浏览器和展开后表现一致
-    # open: open
-    #可以设置open默认展开
-  - title: Job Title
-    sub: Your 2nd, Inc.  
-    duration: Apr 2013 - Mar 2016
-    tags: 
-    - tagname
-    summary: Summary your job or work. (Collapse)
-    detail: Details can be collapsed in Chrome Safari, Firefox, Opera and so on. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 - type: projects
-  name: Projects
+  name: 项目经验
   content:
-  - title: 项目名称
-    duration: xxxx年xx月 - yyyy年yy月
+  - title: 个人博客
+    duration: 2022年09月 - 至今
     detail: 项目和工作介绍，项目总结.
     sub: 维护者
   - title: Project Name
