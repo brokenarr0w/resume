@@ -35,18 +35,22 @@ main: #简历主要内容，
     sub: 本科
     detail: 计算机科学与技术
 
-- type: 专业技能
-  # name: "技能"
-  content:
+others: #其他列表显示
+- type: others #ID可以为空
+  name: '专业技能'
+  content: #选择需要的格式
   - 单行文字
-  - title: 基础
-    items: 
-    - 一行
-    - 二行
-    detail:
-    md: _data/demo.md
-  - title: Skill Group
-    summary: Consectetur, Adipiscing, Elit
+  - title: "加粗:"
+    text: "列表项二"
+  - title: "兴趣:"
+    items: #单行列表
+    - title: "计算机基础："
+      text: "熟练掌握计算机网络，数据结构与算法"
+    - coding
+  - title: 列表
+    list:
+    - 第一项
+    - 第二项
 
 - type: experience
   name: 经验
@@ -83,22 +87,7 @@ main: #简历主要内容，
    #可继续添加更多内容
 
 #others 其他简略内容(列表)
-others: #其他列表显示
-- type: others #ID可以为空
-  name: '其他'
-  content: #选择需要的格式
-  - 单行文字
-  - title: "加粗:"
-    text: "列表项二"
-  - title: "兴趣:"
-    items: #单行列表
-    - 睡觉
-    - 吃饭
-    - coding
-  - title: 列表
-    list:
-    - 第一项
-    - 第二项
+
 #- type: 
 #  name: '其他'
 #  content: #选择需要的格式
