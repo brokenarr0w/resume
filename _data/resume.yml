@@ -38,7 +38,7 @@ main: #简历主要内容，
   name: '专业技能'
   content:
   - title: "计算机基础："
-    text: 熟练掌握计算机网络,数据结构与算法
+    detail: 熟练掌握计算机网络,数据结构与算法
   - title: "Linux："
     text: "了解并掌握常用的Linux命令,并使用Linux实际部署过一个博客项目"
   - title: "Java："
