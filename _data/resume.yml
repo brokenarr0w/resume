@@ -62,7 +62,7 @@ main: #简历主要内容，
     detail: 
       md: _data/project2.md
 #others 其他简略内容(列表)
-  others:
+others:
   - type: others
     name: 自我评价
     content: 
