@@ -62,13 +62,13 @@ main: #简历主要内容，
     detail: 
       md: _data/project2.md
 #others 其他简略内容(列表)
-
-#- type: 
-#  name: '其他'
-#  content: #选择需要的格式
-#  - 单行文字
-#  - 如果有可以继续添加
-
+  others:
+  - type: ''
+    name: 自我评价
+    content: 
+      - 具有文档编写能力和学习能力。在大二时曾用一周时间自学了QT，完成了课设，并参加了校内比赛
+      - 对待工作积极认真，有责任心。
+      - 项目经验丰富，在校期间开发了多个项目和工具供老师使用
 #footer 脚注，打印版和web版不同不显示    
 footer: #脚注多组
   print: #打印版markdown或者html
