@@ -39,7 +39,8 @@ main: #简历主要内容，
   # name: "技能"
   content:
   - title: 基础
-    items:  md:path/to/demo.md
+    items: 
+    detail: md:path/to/demo.md
   - title: Skill Group
     summary: Consectetur, Adipiscing, Elit
 
