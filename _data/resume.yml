@@ -39,6 +39,13 @@ main: #简历主要内容，
   - title: ""
     detail:
       md: _data/demo.md
+- type: skills
+  name: "获奖经历"
+  content: 
+    items:
+    - 中级软件设计师
+    - 蓝桥杯省二等奖
+    - 英语四级
 - type: projects
   name: 项目经验
   content:
