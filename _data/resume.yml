@@ -39,10 +39,7 @@ main: #简历主要内容，
   # name: "技能"
   content:
   - title: 基础
-    items:  可以小块的方式显示
-    - 熟练掌握计算机网络,数据结构与算法
-    - 语言2
-    - 语言3
+    items:  md:path/to/demo.md
   - title: Skill Group
     summary: Consectetur, Adipiscing, Elit
 
