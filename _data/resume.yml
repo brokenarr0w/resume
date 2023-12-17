@@ -63,7 +63,7 @@ main: #简历主要内容，
       md: _data/project2.md
 #others 其他简略内容(列表)
   others:
-  - type: ''
+  - type: others
     name: 自我评价
     content: 
       - 具有文档编写能力和学习能力。在大二时曾用一周时间自学了QT，完成了课设，并参加了校内比赛
