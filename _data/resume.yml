@@ -36,13 +36,9 @@ main: #简历主要内容，
 - type: others #ID可以为空
   name: '专业技能'
   content:
-  - title: "计算机基础："
+  - title: ""
     detail:
       md: _data/demo.md
-  - title: "Linux："
-    text: "了解并掌握常用的Linux命令,并使用Linux实际部署过一个博客项目"
-  - title: "Java："
-    text: "熟练掌握Java基础,集合,了解JDK8-17的新特性,包括stream流,lambda表达式等。"
   - title: "数据库"
     text: "掌握MySQL数据库及其常见优化手段,了解Redis,掌握缓存雪崩,缓存击穿,缓存穿透的解决方案"
   - title: "开发工具："
